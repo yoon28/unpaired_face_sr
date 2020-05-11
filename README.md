@@ -1,11 +1,11 @@
 # Intro
-This repo re-produced [paper](https://arxiv.org/abs/1807.11458) training codes.
-I wrote this codes from [here](https://github.com/jingyang2017/Face-and-Image-super-resolution), where you can only get the test code, and implemented traing codes following the paper as much as I can. Because some hyper-parameters, such as the number of channels for each layer in High-to-Low generator and discriminators, were missing in the paper, they were set by my own choice.
+This repo re-produced [paper](https://arxiv.org/abs/1807.11458) including training codes.
+I wrote this codes from [here](https://github.com/jingyang2017/Face-and-Image-super-resolution), where you can only get the test code, and implemented traing parts following the paper as much as I can. Because some hyper-parameters, such as the number of channels for each layer in High-to-Low generator and discriminators, were missing in the paper, they were set by my own choice.
 
 In the paper, they used the spectral normalization. The spectral normalization code used in here is adopted from [repo](https://github.com/christiancosgrove/pytorch-spectral-normalization-gan/blob/master/spectral_normalization.py).
 
 
-In this repo, all files with prefix `yoon_` are additionally impelmantatied files from the authors' [repo](https://github.com/jingyang2017/Face-and-Image-super-resolution).
+In this repo, files with prefix `yoon_` are additionally impelmantatied files to the authors' [repo](https://github.com/jingyang2017/Face-and-Image-super-resolution).
 
 
 ```
